@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.landingPage {
+  background-image: url("../public/img-1.jpg");
+}
+
+.trending-2 .card {
+  background-image: url(../public/image-1.jpg);
+  object-fit: cover;
+  width: 600px;
+  height: 290px;
+  margin-bottom: 20px;
+}
+
+.trending-2 .card-2 {
+  background-image: url(../public/image-2.jpg);
+  object-fit: cover;
+  width: 600px;
+  height: 290px;
+  margin-bottom: 20px;
+}
