@@ -8,7 +8,7 @@ export const Home = () => {
 
   useEffect(() => {
     dispatch(fetchIce());
-  }, []);
+  }, [dispatch]);
 
   return (
     <>
